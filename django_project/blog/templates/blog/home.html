@@ -4,6 +4,13 @@
 
 {% block content %}
 
-<h1>jinja works!</h1>
+<h1>Home Page</h1>
+
+{% for post in posts %}
+{{post.id}}
+{{post.name}}
+{{post.content}}
+<br>
+{% endfor %}
 
 {% endblock %}
