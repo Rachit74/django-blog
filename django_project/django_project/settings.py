@@ -128,3 +128,4 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4' #must run pip install crispy-bootstrap4 and add to INSTALLED_APPS too.
 LOGIN_REDIRECT_URL = 'blog-home' #redirect after login
+LOGIN_URL = 'login'
